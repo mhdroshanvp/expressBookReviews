@@ -1,0 +1,2 @@
+curl http://localhost:5000/isbn/1
+"{\"author\":\"Chinua Achebe\",\"title\":\"Things Fall Apart\",\"reviews\":{}}"theia@theia-u25145020048:/home/project/expressBookReviews/final_project$ 

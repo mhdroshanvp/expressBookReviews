@@ -1,0 +1,3 @@
+curl http://localhost:5000/author/Chinua%20Achebe
+
+"[{\"author\":\"Chinua Achebe\",\"title\":\"Things Fall Apart\",\"reviews\":{}}]"theia@theia-u25145020048:/home/project/expressBookReviews/final_project$ 
