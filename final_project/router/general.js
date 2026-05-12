@@ -35,7 +35,6 @@ public_users.get('/author/:author',function (req, res) {
     const author = req.params.author;
     const result = [];
 
-    console.log(author,"<====AUTHOR")
 
     for(let key in books){
         if(books[key].author === author){
