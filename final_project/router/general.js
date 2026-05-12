@@ -8,7 +8,7 @@ const public_users = express.Router();
 public_users.post("/register", (req,res) => {
     const {username,password} = req.body;
     if(!username || !password){
-        return res.status(404).json({message:"Username and password required"})
+        return res.status(400).json({message:"Username and password required"})
     }
     const userExist = users.find(user=>user.username === username);
     if(userExist){
